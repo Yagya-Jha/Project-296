@@ -2,11 +2,9 @@ from controller import Robot
 import math
 from controller import Keyboard
 
-# create the Robot instance.
 robot = Robot()
 keyboard = Keyboard()
 
-# get the time step of the current world.
 timestep = int(robot.getBasicTimeStep())
 
 wheel_motor1 = robot.getDevice('motor1')
